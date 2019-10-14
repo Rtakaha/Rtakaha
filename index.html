@@ -16,36 +16,42 @@
   </head>
   <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bar_toggle" aria-controls="bar_toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bar_toggle">
+    <!-- <nav class="collapse navbar-collapse navbar navbar-expand-xl bg-dark navbar-dark fixed-top"> -->
       <!-- left -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">RTakaha</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#profile">Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#mindset">Mindset</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#experiences">Experiences</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="https://www.facebook.com/tkr.qwerty" class="nav-link icon fa-facebook"><span class="label">Facebook</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="https://github.com/Rtakaha" class="nav-link icon fa-github">
-            <span class="label">Github</span>
-          </a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">RTakaha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mindset">Mindset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">Experiences</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/tkr.qwerty" class="nav-link icon fa-facebook"><span class="label">Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/Rtakaha" class="nav-link icon fa-github">
+              <span class="label">Github</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="container-fluid">
@@ -62,67 +68,64 @@
     <br>
     <div id="profile" class="container">
       <h1>Profile</h1>
-      <table class="table">
-        <tr>
-          <th class="align-middle">
-            <center>
-              <h2>RTakaha</h2>
-              <img src="assets/css/images/profile.jpg" class="rounded-circle" alt="Cinque Terre" width=50% title="六本松の科学館での写真。">
-            </center>
-          </th>
-          <th class="align-middle">
-            <left>
-              <br>
-              <table class="table">
-                <tr>
-                  <td>生年月日</td>
-                  <td>1996年1月6日</td>
-                </tr>
-                <tr>
-                  <td>出身</td>
-                  <td>福岡県福岡市</td>
-                </tr>
-                <tr>
-                  <td>所属</td>
-                  <td>九州大学システム情報科学府</td>
-                </tr>
-                <tr>
-                  <td>キャッチフレーズ</td>
-                  <td>異文化交流大好きなネイティブフクオカン</td>
-                </tr>
-                <tr>
-                  <td>将来の夢</td>
-                  <td>DIYができるエンジニア</td>
-                </tr>
-                <tr>
-                  <td>趣味</td>
-                  <td>スポーツ観戦・カレー</td>
-                </tr>
-                <tr>
-                  <td>特技</td>
-                  <td>眉毛ウェーブ（可逆）</td>
-                </tr>
-              </table>
-            </left>
-          </th>
-        </tr>
-      </table>
+      <div class="row">
+        <div class="col-xl-6 col-md-12">
+          <center>
+            <h2>RTakaha</h2>
+            <img src="assets/css/images/profile.jpg" class="rounded-circle" alt="Cinque Terre" width=50% title="六本松の科学館での写真。">
+          </center>
+        </div>
+        <div class="col-xl-6 col-md-12">
+          <left>
+            <br>
+            <table class="table">
+              <tr>
+                <td>生年月日</td>
+                <td>1996年1月6日</td>
+              </tr>
+              <tr>
+                <td>出身</td>
+                <td>福岡県福岡市</td>
+              </tr>
+              <tr>
+                <td>所属</td>
+                <td>九州大学システム情報科学府</td>
+              </tr>
+              <tr>
+                <td>キャッチフレーズ</td>
+                <td>異文化交流大好きなネイティブフクオカン</td>
+              </tr>
+              <tr>
+                <td>将来の夢</td>
+                <td>DIYができるエンジニア</td>
+              </tr>
+              <tr>
+                <td>趣味</td>
+                <td>スポーツ観戦・カレー</td>
+              </tr>
+              <tr>
+                <td>特技</td>
+                <td>眉毛ウェーブ（可逆）</td>
+              </tr>
+            </table>
+          </left>
+        </div>
+      </div>
     </div>
 
     <div id="mindset" class="container">
       <h1>Mindset</h1>
-      <table class="table">
-        <tr>
-          <td>
-            <p>「かっこよく生きる」がモットー。自分が思う「かっこよく」が具体的にどのような行動を指すのか、少しずつ言語化しながら生きている。現時点では「正直である」「とにかく行動を起こす」「自分で考える」の3つ。</p>
-            <p>将来は「DIYができるエンジニア」になりたい。理由は2つ。1つ目は、アイデアに対して実際に行動を起こし、形になるもの作れる人はかっこいいからだ。2つ目は、今まで出会った友達と、自分の知識・スキルを通じてビジネス面でも関わり続けることができると思うからだ。</p>
-          </td>
-          <td>
-            <center>
-              <img src="assets/css/images/diy.jpg" class="img-thumbnail" width="50%">
-            </center>
-          </td>
-      </table>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <center>
+            <img src="assets/css/images/diy.jpg" class="img-thumbnail" width="50%">
+          </center>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <p>「かっこよく生きる」がモットー。自分が思う「かっこよく」が具体的にどのような行動を指すのか、少しずつ言語化しながら生きている。現時点では「正直である」「とにかく行動を起こす」「自分で考える」の3つ。</p>
+          <p>将来は「DIYができるエンジニア」になりたい。理由は2つ。1つ目は、アイデアに対して実際に行動を起こし、形になるもの作れる人はかっこいいからだ。2つ目は、今まで出会った友達と、自分の知識・スキルを通じてビジネス面でも関わり続けることができると思うからだ。</p>
+        </div>
+      </div>
     </div>
 
     <div id="skills" class="container">
